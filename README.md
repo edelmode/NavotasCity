@@ -18,6 +18,7 @@ This project focuses on the analysis of the Project CCHAIN dataset, specifically
 
 Datasset Kaggle link: https://www.kaggle.com/datasets/thinkdatasci/project-cchain?resource=download&amp;SSORegistrationToken=CfDJ8OV3w-Vr_2dIpZxXY9wVZZluoaYtsknzJtqXrG5vCTeN5nHSTW8gMHNPJCrJiExq2fH9bb9hfhY_1TIDaErLfr5WxWCPJGpvdUXDrbmJckdvPK1iIDve-ABX7D1AqrDrOQLokB3YC2CQ8Y1Oc742rvTNKcpI3J9p8PXDD1ecDe5HS1DVDeY_aBg68ISF75OfHLz8bcuGeaBA5Yr573x7Q7l2YTPqSGAXsiP-krJFFvWZqM0ate3pNO0lqLxPV8VgrUZnoG6_WNFWAjh8RlLtGJ2YManQVNbo53lRjNoq4byHywLD5LE4zhYQOqtRlNs4wuS1ONCAhJwsmIQFBwmnhKb5VdqdH9fNOuzgfasROImtbORQoiTPPYfE-g&amp;DisplayName=Edcel+Artificio&amp;select=climate_land.csv
 
+
 To get started with the dataset analysis, follow these steps:
 
 1. Clone the Repository
@@ -37,22 +38,36 @@ Open the Jupyter Notebook and run the cells to perform data analysis on Navotas 
 5. Data Visualization
 For data visualization, we recommend using Tableau. If you do not have Tableau installed, you can download it from here.
 
+
 Project Structure
 
 project-cchain-navotas/
+
 ├── data/                   # Dataset files
+
 ├── notebooks/              # Jupyter Notebooks for analysis
+
 ├── visualizations/         # Tableau visualizations
+
 ├── README.md               # Project README file
+
 └── requirements.txt        # Required Python libraries
 
+
+
 Contributing
+
 We welcome contributions to improve the analysis and visualizations. Please fork the repository and create a pull request with your changes.
 
+
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+
 Acknowledgements
+
 Kaggle for providing the dataset.
+
 The creators of the Project CCHAIN dataset for their comprehensive data collection.
 
