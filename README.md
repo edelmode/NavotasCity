@@ -21,7 +21,7 @@ Datasset Kaggle link: https://www.kaggle.com/datasets/thinkdatasci/project-cchai
 To get started with the dataset analysis, follow these steps:
 
 1. Clone the Repository
-git clone https://github.com/your-username/project-cchain-navotas.git
+git clone https://github.com/edelmode/project-cchain-navotas.git
 cd project-cchain-navotas
 
 2. Install Required Libraries
