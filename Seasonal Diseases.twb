@@ -1,0 +1,1888 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='barangay_merged' inline='true' name='federated.0jq4dzc03m4zc817mucg508qn77t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='barangay_merged' name='textscan.1htxkx7113ypt715rrm6r0prhfw6'>
+            <connection class='textscan' directory='C:/Users/Edel Mae T. Tapar/Downloads' filename='barangay_merged.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1htxkx7113ypt715rrm6r0prhfw6' name='barangay_merged.csv' table='[barangay_merged#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='barangay code' ordinal='1' />
+            <column datatype='string' name='City ' ordinal='2' />
+            <column datatype='string' name='barangay ' ordinal='3' />
+            <column datatype='real' name='brgy_total_area' ordinal='4' />
+            <column datatype='real' name='heat_index' ordinal='5' />
+            <column datatype='real' name='pr' ordinal='6' />
+            <column datatype='real' name='rh' ordinal='7' />
+            <column datatype='real' name='solar_rad' ordinal='8' />
+            <column datatype='real' name='tave' ordinal='9' />
+            <column datatype='real' name='tmax' ordinal='10' />
+            <column datatype='real' name='tmin' ordinal='11' />
+            <column datatype='real' name='uv_rad' ordinal='12' />
+            <column datatype='real' name='wind_speed' ordinal='13' />
+            <column datatype='real' name='avg_rad_mean' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='integer' name='clinic_nearest' ordinal='16' />
+            <column datatype='integer' name='dentist_nearest' ordinal='17' />
+            <column datatype='integer' name='doctors_nearest' ordinal='18' />
+            <column datatype='integer' name='hospital_nearest' ordinal='19' />
+            <column datatype='real' name='optician_nearest' ordinal='20' />
+            <column datatype='real' name='pharmacy_nearest' ordinal='21' />
+            <column datatype='integer' name='poi_count' ordinal='22' />
+            <column datatype='real' name='pop_count_mean' ordinal='23' />
+            <column datatype='real' name='pop_count_total' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='F27' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='F29' ordinal='28' />
+            <column datatype='date' name='date_diseases_psatotals' ordinal='29' />
+            <column datatype='string' name='source_name' ordinal='30' />
+            <column datatype='string' name='source_filename' ordinal='31' />
+            <column datatype='string' name='adm3_pcode' ordinal='32' />
+            <column datatype='string' name='disease_icd10_code' ordinal='33' />
+            <column datatype='string' name='disease_common_name' ordinal='34' />
+            <column datatype='integer' name='death_total' ordinal='35' />
+            <column datatype='string' name='F37' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+            <column datatype='string' name='F39' ordinal='38' />
+            <column datatype='string' name='F40' ordinal='39' />
+            <column datatype='string' name='freq' ordinal='40' />
+            <column datatype='date' name='date_dieases_pidsrtotals' ordinal='41' />
+            <column datatype='string' name='source_name 1' ordinal='42' />
+            <column datatype='string' name='source_filename 1' ordinal='43' />
+            <column datatype='string' name='adm3_pcode 1' ordinal='44' />
+            <column datatype='string' name='disease_icd10_code 1' ordinal='45' />
+            <column datatype='string' name='disease_common_name 1' ordinal='46' />
+            <column datatype='integer' name='case_total' ordinal='47' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1htxkx7113ypt715rrm6r0prhfw6' name='barangay_merged.csv' table='[barangay_merged#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='barangay code' ordinal='1' />
+            <column datatype='string' name='City ' ordinal='2' />
+            <column datatype='string' name='barangay ' ordinal='3' />
+            <column datatype='real' name='brgy_total_area' ordinal='4' />
+            <column datatype='real' name='heat_index' ordinal='5' />
+            <column datatype='real' name='pr' ordinal='6' />
+            <column datatype='real' name='rh' ordinal='7' />
+            <column datatype='real' name='solar_rad' ordinal='8' />
+            <column datatype='real' name='tave' ordinal='9' />
+            <column datatype='real' name='tmax' ordinal='10' />
+            <column datatype='real' name='tmin' ordinal='11' />
+            <column datatype='real' name='uv_rad' ordinal='12' />
+            <column datatype='real' name='wind_speed' ordinal='13' />
+            <column datatype='real' name='avg_rad_mean' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='integer' name='clinic_nearest' ordinal='16' />
+            <column datatype='integer' name='dentist_nearest' ordinal='17' />
+            <column datatype='integer' name='doctors_nearest' ordinal='18' />
+            <column datatype='integer' name='hospital_nearest' ordinal='19' />
+            <column datatype='real' name='optician_nearest' ordinal='20' />
+            <column datatype='real' name='pharmacy_nearest' ordinal='21' />
+            <column datatype='integer' name='poi_count' ordinal='22' />
+            <column datatype='real' name='pop_count_mean' ordinal='23' />
+            <column datatype='real' name='pop_count_total' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='F27' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='F29' ordinal='28' />
+            <column datatype='date' name='date_diseases_psatotals' ordinal='29' />
+            <column datatype='string' name='source_name' ordinal='30' />
+            <column datatype='string' name='source_filename' ordinal='31' />
+            <column datatype='string' name='adm3_pcode' ordinal='32' />
+            <column datatype='string' name='disease_icd10_code' ordinal='33' />
+            <column datatype='string' name='disease_common_name' ordinal='34' />
+            <column datatype='integer' name='death_total' ordinal='35' />
+            <column datatype='string' name='F37' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+            <column datatype='string' name='F39' ordinal='38' />
+            <column datatype='string' name='F40' ordinal='39' />
+            <column datatype='string' name='freq' ordinal='40' />
+            <column datatype='date' name='date_dieases_pidsrtotals' ordinal='41' />
+            <column datatype='string' name='source_name 1' ordinal='42' />
+            <column datatype='string' name='source_filename 1' ordinal='43' />
+            <column datatype='string' name='adm3_pcode 1' ordinal='44' />
+            <column datatype='string' name='disease_icd10_code 1' ordinal='45' />
+            <column datatype='string' name='disease_common_name 1' ordinal='46' />
+            <column datatype='integer' name='case_total' ordinal='47' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₱&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_PH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barangay code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barangay code]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>barangay code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City ]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>City </remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barangay </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barangay ]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>barangay </remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brgy_total_area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brgy_total_area]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>brgy_total_area</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heat_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heat_index]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>heat_index</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pr]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>pr</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rh]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>rh</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>solar_rad</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[solar_rad]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>solar_rad</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tave</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tave]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>tave</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tmax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tmax]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>tmax</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tmin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tmin]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>tmin</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uv_rad</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[uv_rad]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>uv_rad</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wind_speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wind_speed]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>wind_speed</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_rad_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_rad_mean]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>avg_rad_mean</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clinic_nearest</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[clinic_nearest]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>clinic_nearest</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dentist_nearest</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dentist_nearest]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>dentist_nearest</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>doctors_nearest</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[doctors_nearest]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>doctors_nearest</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hospital_nearest</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hospital_nearest]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>hospital_nearest</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>optician_nearest</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[optician_nearest]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>optician_nearest</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pharmacy_nearest</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pharmacy_nearest]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>pharmacy_nearest</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poi_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[poi_count]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>poi_count</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pop_count_mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pop_count_mean]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>pop_count_mean</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pop_count_total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pop_count_total]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>pop_count_total</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_diseases_psatotals</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_diseases_psatotals]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>date_diseases_psatotals</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source_name]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>source_name</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_filename</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source_filename]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>source_filename</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adm3_pcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[adm3_pcode]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>adm3_pcode</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disease_icd10_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[disease_icd10_code]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>disease_icd10_code</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disease_common_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[disease_common_name]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>disease_common_name</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>death_total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[death_total]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>death_total</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F37</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F37]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F37</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F38</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F38]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F38</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F39</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F39]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F39</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F40</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F40]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>F40</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freq</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[freq]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>freq</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_dieases_pidsrtotals</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_dieases_pidsrtotals]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>date_dieases_pidsrtotals</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_name 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source_name 1]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>source_name 1</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_filename 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source_filename 1]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>source_filename 1</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adm3_pcode 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[adm3_pcode 1]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>adm3_pcode 1</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disease_icd10_code 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[disease_icd10_code 1]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>disease_icd10_code 1</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disease_common_name 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[disease_common_name 1]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>disease_common_name 1</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>case_total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[case_total]</local-name>
+            <parent-name>[barangay_merged.csv]</parent-name>
+            <remote-alias>case_total</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='City' datatype='string' name='[City ]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' hidden='true' name='[F16]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F26]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F27]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F28]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F29]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F37]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F38]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F39]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F40]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='barangay_merged.csv' datatype='table' name='[__tableau_internal_object_id__].[barangay_merged.csv_078CD2204A7A4080B905396AFF33288E]' role='measure' type='quantitative' />
+      <column caption='Adm3 Pcode 1' datatype='string' hidden='true' name='[adm3_pcode 1]' role='dimension' type='nominal' />
+      <column caption='Adm3 Pcode' datatype='string' hidden='true' name='[adm3_pcode]' role='dimension' type='nominal' />
+      <column caption='Avg Rad Mean' datatype='real' name='[avg_rad_mean]' role='measure' type='quantitative' />
+      <column caption='Barangay' datatype='string' name='[barangay ]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;Bagumbayan North&quot;' value='14.6524' />
+          <semantic-value key='&quot;Bagumbayan South&quot;' value='14.6511' />
+          <semantic-value key='&quot;Bangculasi&quot;' value='14.6502' />
+          <semantic-value key='&quot;Daanghari&quot;' value='14.6668' />
+          <semantic-value key='&quot;Navotas East&quot;' value='14.6549' />
+          <semantic-value key='&quot;Navotas West&quot;' value='14.6546' />
+          <semantic-value key='&quot;North Bay Blvd., North&quot;' value='14.6477' />
+          <semantic-value key='&quot;North Bay Blvd., South&quot;' value='14.64335' />
+          <semantic-value key='&quot;San Jose (Pob.)&quot;' value='14.660600000000001' />
+          <semantic-value key='&quot;San Rafael Village&quot;' value='14.636799999999999' />
+          <semantic-value key='&quot;San Roque&quot;' value='14.6715' />
+          <semantic-value key='&quot;Sipac-Almacen&quot;' value='14.6576' />
+          <semantic-value key='&quot;Tangos&quot;' value='14.674300000000001' />
+          <semantic-value key='&quot;Tanza&quot;' value='14.676600000000001' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;Bagumbayan North&quot;' value='120.94889999999999' />
+          <semantic-value key='&quot;Bagumbayan South&quot;' value='120.95050000000001' />
+          <semantic-value key='&quot;Bangculasi&quot;' value='120.9522' />
+          <semantic-value key='&quot;Daanghari&quot;' value='120.9406' />
+          <semantic-value key='&quot;Navotas East&quot;' value='120.9487' />
+          <semantic-value key='&quot;Navotas West&quot;' value='120.94799999999999' />
+          <semantic-value key='&quot;North Bay Blvd., North&quot;' value='120.9503' />
+          <semantic-value key='&quot;North Bay Blvd., South&quot;' value='120.9568' />
+          <semantic-value key='&quot;San Jose (Pob.)&quot;' value='120.94410000000001' />
+          <semantic-value key='&quot;San Rafael Village&quot;' value='120.964' />
+          <semantic-value key='&quot;San Roque&quot;' value='120.93980000000001' />
+          <semantic-value key='&quot;Sipac-Almacen&quot;' value='120.94580000000001' />
+          <semantic-value key='&quot;Tangos&quot;' value='120.931' />
+          <semantic-value key='&quot;Tanza&quot;' value='120.9359' />
+        </semantic-values>
+      </column>
+      <column caption='Barangay Code' datatype='string' name='[barangay code]' role='dimension' type='nominal' />
+      <column caption='Brgy Total Area' datatype='real' name='[brgy_total_area]' role='measure' type='quantitative' />
+      <column caption='Case Total' datatype='integer' name='[case_total]' role='measure' type='quantitative' />
+      <column caption='Clinic Nearest' datatype='integer' name='[clinic_nearest]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Date Dieases Pidsrtotals' datatype='date' name='[date_dieases_pidsrtotals]' role='dimension' type='ordinal' />
+      <column caption='Date Diseases Psatotals' datatype='date' name='[date_diseases_psatotals]' role='dimension' type='ordinal' />
+      <column caption='Death Total' datatype='integer' name='[death_total]' role='measure' type='quantitative' />
+      <column caption='Dentist Nearest' datatype='integer' name='[dentist_nearest]' role='measure' type='quantitative' />
+      <column caption='Disease Common Name 1' datatype='string' name='[disease_common_name 1]' role='dimension' type='nominal' />
+      <column caption='Disease Common Name' datatype='string' name='[disease_common_name]' role='dimension' type='nominal' />
+      <column caption='Disease Icd10 Code 1' datatype='string' hidden='true' name='[disease_icd10_code 1]' role='dimension' type='nominal' />
+      <column caption='Disease Icd10 Code' datatype='string' hidden='true' name='[disease_icd10_code]' role='dimension' type='nominal' />
+      <column caption='Doctors Nearest' datatype='integer' name='[doctors_nearest]' role='measure' type='quantitative' />
+      <column caption='Freq' datatype='string' hidden='true' name='[freq]' role='dimension' type='nominal' />
+      <column caption='Heat Index' datatype='real' name='[heat_index]' role='measure' type='quantitative' />
+      <column caption='Hospital Nearest' datatype='integer' name='[hospital_nearest]' role='measure' type='quantitative' />
+      <column caption='Optician Nearest' datatype='real' name='[optician_nearest]' role='measure' type='quantitative' />
+      <column caption='Pharmacy Nearest' datatype='real' name='[pharmacy_nearest]' role='measure' type='quantitative' />
+      <column caption='Poi Count' datatype='integer' name='[poi_count]' role='measure' type='quantitative' />
+      <column caption='Pop Count Mean' datatype='real' name='[pop_count_mean]' role='measure' type='quantitative' />
+      <column caption='Pop Count Total' datatype='real' name='[pop_count_total]' role='measure' type='quantitative' />
+      <column caption='Pr' datatype='real' name='[pr]' role='measure' type='quantitative' />
+      <column caption='Rh' datatype='real' name='[rh]' role='measure' type='quantitative' />
+      <column caption='Solar Rad' datatype='real' name='[solar_rad]' role='measure' type='quantitative' />
+      <column caption='Source Filename 1' datatype='string' hidden='true' name='[source_filename 1]' role='dimension' type='nominal' />
+      <column caption='Source Filename' datatype='string' hidden='true' name='[source_filename]' role='dimension' type='nominal' />
+      <column caption='Source Name 1' datatype='string' hidden='true' name='[source_name 1]' role='dimension' type='nominal' />
+      <column caption='Source Name' datatype='string' hidden='true' name='[source_name]' role='dimension' type='nominal' />
+      <column caption='Tave' datatype='real' name='[tave]' role='measure' type='quantitative' />
+      <column caption='Tmax' datatype='real' name='[tmax]' role='measure' type='quantitative' />
+      <column caption='Tmin' datatype='real' name='[tmin]' role='measure' type='quantitative' />
+      <column caption='Uv Rad' datatype='real' name='[uv_rad]' role='measure' type='quantitative' />
+      <column caption='Wind Speed' datatype='real' name='[wind_speed]' role='measure' type='quantitative' />
+      <column-instance column='[disease_common_name 1]' derivation='None' name='[none:disease_common_name 1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[disease_common_name]' derivation='None' name='[none:disease_common_name:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:disease_common_name:nk]' palette='red_gold_10_0' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;LEPTOSPIROSIS&quot;</bucket>
+            </map>
+            <map to='#3589a9'>
+              <bucket>&quot;HEPATITIS A&quot;</bucket>
+            </map>
+            <map to='#6eb8c5'>
+              <bucket>&quot;GASTROENTERITIS&quot;</bucket>
+            </map>
+            <map to='#93cdcf'>
+              <bucket>&quot;DENGUE FEVER&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#b71d3e'>
+              <bucket>&quot;ISCHEMIC HEART DISEASE&quot;</bucket>
+            </map>
+            <map to='#d54a45'>
+              <bucket>&quot;HYPERTENSIVE HEART DISEASE&quot;</bucket>
+            </map>
+            <map to='#ee734a'>
+              <bucket>&quot;HEAT STROKE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ASTHMA&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;ANGINA&quot;</bucket>
+            </map>
+            <map to='#faa04f'>
+              <bucket>&quot;DIABETES&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:disease_common_name 1:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;ACUTE BLOODY DIARRHEA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HEPATITIS A&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='barangay_merged.csv' id='barangay_merged.csv_078CD2204A7A4080B905396AFF33288E'>
+            <properties context=''>
+              <relation connection='textscan.1htxkx7113ypt715rrm6r0prhfw6' name='barangay_merged.csv' table='[barangay_merged#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_PH' separator=','>
+                  <column datatype='date' name='date' ordinal='0' />
+                  <column datatype='string' name='barangay code' ordinal='1' />
+                  <column datatype='string' name='City ' ordinal='2' />
+                  <column datatype='string' name='barangay ' ordinal='3' />
+                  <column datatype='real' name='brgy_total_area' ordinal='4' />
+                  <column datatype='real' name='heat_index' ordinal='5' />
+                  <column datatype='real' name='pr' ordinal='6' />
+                  <column datatype='real' name='rh' ordinal='7' />
+                  <column datatype='real' name='solar_rad' ordinal='8' />
+                  <column datatype='real' name='tave' ordinal='9' />
+                  <column datatype='real' name='tmax' ordinal='10' />
+                  <column datatype='real' name='tmin' ordinal='11' />
+                  <column datatype='real' name='uv_rad' ordinal='12' />
+                  <column datatype='real' name='wind_speed' ordinal='13' />
+                  <column datatype='real' name='avg_rad_mean' ordinal='14' />
+                  <column datatype='string' name='F16' ordinal='15' />
+                  <column datatype='integer' name='clinic_nearest' ordinal='16' />
+                  <column datatype='integer' name='dentist_nearest' ordinal='17' />
+                  <column datatype='integer' name='doctors_nearest' ordinal='18' />
+                  <column datatype='integer' name='hospital_nearest' ordinal='19' />
+                  <column datatype='real' name='optician_nearest' ordinal='20' />
+                  <column datatype='real' name='pharmacy_nearest' ordinal='21' />
+                  <column datatype='integer' name='poi_count' ordinal='22' />
+                  <column datatype='real' name='pop_count_mean' ordinal='23' />
+                  <column datatype='real' name='pop_count_total' ordinal='24' />
+                  <column datatype='string' name='F26' ordinal='25' />
+                  <column datatype='string' name='F27' ordinal='26' />
+                  <column datatype='string' name='F28' ordinal='27' />
+                  <column datatype='string' name='F29' ordinal='28' />
+                  <column datatype='date' name='date_diseases_psatotals' ordinal='29' />
+                  <column datatype='string' name='source_name' ordinal='30' />
+                  <column datatype='string' name='source_filename' ordinal='31' />
+                  <column datatype='string' name='adm3_pcode' ordinal='32' />
+                  <column datatype='string' name='disease_icd10_code' ordinal='33' />
+                  <column datatype='string' name='disease_common_name' ordinal='34' />
+                  <column datatype='integer' name='death_total' ordinal='35' />
+                  <column datatype='string' name='F37' ordinal='36' />
+                  <column datatype='string' name='F38' ordinal='37' />
+                  <column datatype='string' name='F39' ordinal='38' />
+                  <column datatype='string' name='F40' ordinal='39' />
+                  <column datatype='string' name='freq' ordinal='40' />
+                  <column datatype='date' name='date_dieases_pidsrtotals' ordinal='41' />
+                  <column datatype='string' name='source_name 1' ordinal='42' />
+                  <column datatype='string' name='source_filename 1' ordinal='43' />
+                  <column datatype='string' name='adm3_pcode 1' ordinal='44' />
+                  <column datatype='string' name='disease_icd10_code 1' ordinal='45' />
+                  <column datatype='string' name='disease_common_name 1' ordinal='46' />
+                  <column datatype='integer' name='case_total' ordinal='47' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Rainy Season Diseases '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='barangay_merged' name='federated.0jq4dzc03m4zc817mucg508qn77t' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0jq4dzc03m4zc817mucg508qn77t'>
+            <column caption='Barangay' datatype='string' name='[barangay ]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;Bagumbayan North&quot;' value='14.6524' />
+                <semantic-value key='&quot;Bagumbayan South&quot;' value='14.6511' />
+                <semantic-value key='&quot;Bangculasi&quot;' value='14.6502' />
+                <semantic-value key='&quot;Daanghari&quot;' value='14.6668' />
+                <semantic-value key='&quot;Navotas East&quot;' value='14.6549' />
+                <semantic-value key='&quot;Navotas West&quot;' value='14.6546' />
+                <semantic-value key='&quot;North Bay Blvd., North&quot;' value='14.6477' />
+                <semantic-value key='&quot;North Bay Blvd., South&quot;' value='14.64335' />
+                <semantic-value key='&quot;San Jose (Pob.)&quot;' value='14.660600000000001' />
+                <semantic-value key='&quot;San Rafael Village&quot;' value='14.636799999999999' />
+                <semantic-value key='&quot;San Roque&quot;' value='14.6715' />
+                <semantic-value key='&quot;Sipac-Almacen&quot;' value='14.6576' />
+                <semantic-value key='&quot;Tangos&quot;' value='14.674300000000001' />
+                <semantic-value key='&quot;Tanza&quot;' value='14.676600000000001' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;Bagumbayan North&quot;' value='120.94889999999999' />
+                <semantic-value key='&quot;Bagumbayan South&quot;' value='120.95050000000001' />
+                <semantic-value key='&quot;Bangculasi&quot;' value='120.9522' />
+                <semantic-value key='&quot;Daanghari&quot;' value='120.9406' />
+                <semantic-value key='&quot;Navotas East&quot;' value='120.9487' />
+                <semantic-value key='&quot;Navotas West&quot;' value='120.94799999999999' />
+                <semantic-value key='&quot;North Bay Blvd., North&quot;' value='120.9503' />
+                <semantic-value key='&quot;North Bay Blvd., South&quot;' value='120.9568' />
+                <semantic-value key='&quot;San Jose (Pob.)&quot;' value='120.94410000000001' />
+                <semantic-value key='&quot;San Rafael Village&quot;' value='120.964' />
+                <semantic-value key='&quot;San Roque&quot;' value='120.93980000000001' />
+                <semantic-value key='&quot;Sipac-Almacen&quot;' value='120.94580000000001' />
+                <semantic-value key='&quot;Tangos&quot;' value='120.931' />
+                <semantic-value key='&quot;Tanza&quot;' value='120.9359' />
+              </semantic-values>
+            </column>
+            <column caption='Case Total' datatype='integer' name='[case_total]' role='measure' type='quantitative' />
+            <column caption='Date Dieases Pidsrtotals' datatype='date' name='[date_dieases_pidsrtotals]' role='dimension' type='ordinal' />
+            <column caption='Disease Common Name' datatype='string' name='[disease_common_name]' role='dimension' type='nominal' />
+            <column-instance column='[barangay ]' derivation='None' name='[none:barangay :nk]' pivot='key' type='nominal' />
+            <column-instance column='[disease_common_name]' derivation='None' name='[none:disease_common_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[case_total]' derivation='Sum' name='[sum:case_total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date_dieases_pidsrtotals]' derivation='Year' name='[yr:date_dieases_pidsrtotals:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:disease_common_name:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:disease_common_name:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;ASTHMA&quot;' />
+                <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;DIABETES&quot;' />
+                <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;HYPERTENSIVE HEART DISEASE&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]'>
+            <groupfilter from='2013' function='range' level='[yr:date_dieases_pidsrtotals:ok]' to='2022' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]</column>
+            <column>[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jq4dzc03m4zc817mucg508qn77t].[Longitude (generated)]' field-type='quantitative' max='13468837.435225513' min='13460104.745500933' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0jq4dzc03m4zc817mucg508qn77t].[Latitude (generated)]' field-type='quantitative' max='1652911.1741415774' min='1646597.5316882187' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0jq4dzc03m4zc817mucg508qn77t].[sum:case_total:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.0jq4dzc03m4zc817mucg508qn77t].[sum:case_total:qk]' field-type='quantitative' max-size='1' min-size='0.0109835' type='quantsize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]' />
+              <size column='[federated.0jq4dzc03m4zc817mucg508qn77t].[sum:case_total:qk]' />
+              <lod column='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:barangay :nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='5.3785600662231445' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='false' />
+                <format attr='has-halo' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jq4dzc03m4zc817mucg508qn77t].[Latitude (generated)]</rows>
+        <cols>[federated.0jq4dzc03m4zc817mucg508qn77t].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{F2C178AA-6E83-4B77-8A77-6C28711CE39C}' />
+    </worksheet>
+    <worksheet name='Sunny Season Diseases'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='barangay_merged' name='federated.0jq4dzc03m4zc817mucg508qn77t' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0jq4dzc03m4zc817mucg508qn77t'>
+            <column caption='Barangay' datatype='string' name='[barangay ]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;Bagumbayan North&quot;' value='14.6524' />
+                <semantic-value key='&quot;Bagumbayan South&quot;' value='14.6511' />
+                <semantic-value key='&quot;Bangculasi&quot;' value='14.6502' />
+                <semantic-value key='&quot;Daanghari&quot;' value='14.6668' />
+                <semantic-value key='&quot;Navotas East&quot;' value='14.6549' />
+                <semantic-value key='&quot;Navotas West&quot;' value='14.6546' />
+                <semantic-value key='&quot;North Bay Blvd., North&quot;' value='14.6477' />
+                <semantic-value key='&quot;North Bay Blvd., South&quot;' value='14.64335' />
+                <semantic-value key='&quot;San Jose (Pob.)&quot;' value='14.660600000000001' />
+                <semantic-value key='&quot;San Rafael Village&quot;' value='14.636799999999999' />
+                <semantic-value key='&quot;San Roque&quot;' value='14.6715' />
+                <semantic-value key='&quot;Sipac-Almacen&quot;' value='14.6576' />
+                <semantic-value key='&quot;Tangos&quot;' value='14.674300000000001' />
+                <semantic-value key='&quot;Tanza&quot;' value='14.676600000000001' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;Bagumbayan North&quot;' value='120.94889999999999' />
+                <semantic-value key='&quot;Bagumbayan South&quot;' value='120.95050000000001' />
+                <semantic-value key='&quot;Bangculasi&quot;' value='120.9522' />
+                <semantic-value key='&quot;Daanghari&quot;' value='120.9406' />
+                <semantic-value key='&quot;Navotas East&quot;' value='120.9487' />
+                <semantic-value key='&quot;Navotas West&quot;' value='120.94799999999999' />
+                <semantic-value key='&quot;North Bay Blvd., North&quot;' value='120.9503' />
+                <semantic-value key='&quot;North Bay Blvd., South&quot;' value='120.9568' />
+                <semantic-value key='&quot;San Jose (Pob.)&quot;' value='120.94410000000001' />
+                <semantic-value key='&quot;San Rafael Village&quot;' value='120.964' />
+                <semantic-value key='&quot;San Roque&quot;' value='120.93980000000001' />
+                <semantic-value key='&quot;Sipac-Almacen&quot;' value='120.94580000000001' />
+                <semantic-value key='&quot;Tangos&quot;' value='120.931' />
+                <semantic-value key='&quot;Tanza&quot;' value='120.9359' />
+              </semantic-values>
+            </column>
+            <column caption='Case Total' datatype='integer' name='[case_total]' role='measure' type='quantitative' />
+            <column caption='Date Dieases Pidsrtotals' datatype='date' name='[date_dieases_pidsrtotals]' role='dimension' type='ordinal' />
+            <column caption='Disease Common Name' datatype='string' name='[disease_common_name]' role='dimension' type='nominal' />
+            <column-instance column='[barangay ]' derivation='None' name='[none:barangay :nk]' pivot='key' type='nominal' />
+            <column-instance column='[disease_common_name]' derivation='None' name='[none:disease_common_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[case_total]' derivation='Sum' name='[sum:case_total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date_dieases_pidsrtotals]' derivation='Year' name='[yr:date_dieases_pidsrtotals:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;ANGINA&quot;' />
+              <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;DIABETES&quot;' />
+              <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;HEAT STROKE&quot;' />
+              <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;HYPERTENSIVE HEART DISEASE&quot;' />
+              <groupfilter function='member' level='[none:disease_common_name:nk]' member='&quot;ISCHEMIC HEART DISEASE&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]'>
+            <groupfilter from='2013' function='range' level='[yr:date_dieases_pidsrtotals:ok]' to='2022' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]</column>
+            <column>[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jq4dzc03m4zc817mucg508qn77t].[Longitude (generated)]' field-type='quantitative' max='13472461.216403006' min='13457781.980990378' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0jq4dzc03m4zc817mucg508qn77t].[Latitude (generated)]' field-type='quantitative' max='1654948.3247572393' min='1644335.3925671584' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]' />
+              <size column='[federated.0jq4dzc03m4zc817mucg508qn77t].[sum:case_total:qk]' />
+              <lod column='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:barangay :nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.6132595539093018' />
+                <format attr='has-stroke' value='false' />
+                <format attr='has-halo' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jq4dzc03m4zc817mucg508qn77t].[Latitude (generated)]</rows>
+        <cols>[federated.0jq4dzc03m4zc817mucg508qn77t].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{7520E128-2BBA-4363-A828-C12DCBE8767B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Rainy Season Diseases '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]' type='filter' />
+            <card param='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0jq4dzc03m4zc817mucg508qn77t].[sum:case_total:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[none:barangay :nk]</field>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]</field>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]</field>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_diseases_psatotals:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A16D2EE4-0D95-448B-AEAB-59C03031FD6D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sunny Season Diseases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]' type='filter' />
+            <card param='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0jq4dzc03m4zc817mucg508qn77t].[sum:case_total:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[none:barangay :nk]</field>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[none:disease_common_name:nk]</field>
+            <field>[federated.0jq4dzc03m4zc817mucg508qn77t].[yr:date_dieases_pidsrtotals:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{2860C3FC-7A05-4830-AA1D-447F7B1B476F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Rainy Season Diseases ' width='192'>
+      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
+      IGAnAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sunny Season Diseases' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
